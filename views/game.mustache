@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<title>Hangman</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div>
+		<h1>HANGMAN</h1>
+		<h3>{{game.userDisplayString}}</h3>
+			<div>
+				<h4>{{game.statusMessage}}</h4>
+				<h4>{{game.guessAmount}}</h4>
+				<h4>{{game.userDisplayGuessed}}</h4>
+			</div>
+		</div>
+		<form action="/game" method="post">
+			<input type="submit" value="GUESS:">
+			<input type="text" name="guess" maxlength="1">
+
+		</form>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "Hangman",
+  "version": "1.0.0",
+  "description": "hangman style game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-madia/Hangman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-madia/Hangman/issues"
+  },
+  "homepage": "https://github.com/chris-madia/Hangman#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-mustache": "^1.0.3",
+    "express-session": "^1.15.5",
+    "express-validator": "^3.2.1",
+    "file-system": "^2.2.2",
+    "filesystem": "^1.0.1",
+    "flow-inspector": "^1.1.1",
+    "morgan": "^1.8.2",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5",
+    "session": "^0.1.0",
+    "validator": "^8.0.0"
+  }
+}
